@@ -1,0 +1,131 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "/subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/Canonical/supportPlanTypes/Advanced?api-version=2017-05-15",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZDE4ZDI1OGYtYmRiYS00ZGUxLThiNTEtZTc5ZDZjMTgxZDVlL3Byb3ZpZGVycy9NaWNyb3NvZnQuQWRkb25zL3N1cHBvcnRQcm92aWRlcnMvQ2Fub25pY2FsL3N1cHBvcnRQbGFuVHlwZXMvQWR2YW5jZWQ/YXBpLXZlcnNpb249MjAxNy0wNS0xNQ==",
+      "RequestMethod": "PUT",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "7cdd8867-cd99-4476-9576-b584cef5490d"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.2633.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.16299",
+          "Microsoft.Azure.Management.Addons.AzureAddonsResourceProviderClient/1.0.0.0"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"provisioningState\": \"Upgrading\"\r\n  },\r\n  \"id\": \"subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/canonical/supportPlanTypes/Advanced\",\r\n  \"name\": \"Advanced\",\r\n  \"type\": \"Microsoft.Addons/supportProvider\"\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "246"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "dm:a5980e8f-c374-4118-a426-ca37fc5f33c5"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1176"
+        ],
+        "x-ms-correlation-request-id": [
+          "c46a534c-53ff-40a8-b606-f01f93b0e92f"
+        ],
+        "x-ms-routing-request-id": [
+          "CENTRALUS:20180223T021505Z:c46a534c-53ff-40a8-b606-f01f93b0e92f"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Fri, 23 Feb 2018 02:15:05 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ]
+      },
+      "StatusCode": 201
+    },
+    {
+      "RequestUri": "/subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/Canonical/supportPlanTypes/Advanced?api-version=2017-05-15",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZDE4ZDI1OGYtYmRiYS00ZGUxLThiNTEtZTc5ZDZjMTgxZDVlL3Byb3ZpZGVycy9NaWNyb3NvZnQuQWRkb25zL3N1cHBvcnRQcm92aWRlcnMvQ2Fub25pY2FsL3N1cHBvcnRQbGFuVHlwZXMvQWR2YW5jZWQ/YXBpLXZlcnNpb249MjAxNy0wNS0xNQ==",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.7.2633.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.16299",
+          "Microsoft.Azure.Management.Addons.AzureAddonsResourceProviderClient/1.0.0.0"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  },\r\n  \"id\": \"subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/canonical/supportPlanTypes/Advanced\",\r\n  \"name\": \"Advanced\",\r\n  \"type\": \"Microsoft.Addons/supportProvider\"\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "246"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Vary": [
+          "Accept-Encoding"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "14958"
+        ],
+        "x-ms-request-id": [
+          "dm:3bdbda16-e016-4df1-a1d7-3afb5aec5ba7"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-correlation-request-id": [
+          "9da45a37-0efa-438d-9214-aa6af7301958"
+        ],
+        "x-ms-routing-request-id": [
+          "CENTRALUS:20180223T021535Z:9da45a37-0efa-438d-9214-aa6af7301958"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Fri, 23 Feb 2018 02:15:35 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ]
+      },
+      "StatusCode": 200
+    }
+  ],
+  "Names": {},
+  "Variables": {
+    "SubscriptionId": "d18d258f-bdba-4de1-8b51-e79d6c181d5e"
+  }
+}

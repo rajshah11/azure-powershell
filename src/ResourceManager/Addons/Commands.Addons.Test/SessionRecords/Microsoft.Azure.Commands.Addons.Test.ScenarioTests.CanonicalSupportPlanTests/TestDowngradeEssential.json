@@ -1,0 +1,131 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "/subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/Canonical/supportPlanTypes/Essential?api-version=2017-05-15",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZDE4ZDI1OGYtYmRiYS00ZGUxLThiNTEtZTc5ZDZjMTgxZDVlL3Byb3ZpZGVycy9NaWNyb3NvZnQuQWRkb25zL3N1cHBvcnRQcm92aWRlcnMvQ2Fub25pY2FsL3N1cHBvcnRQbGFuVHlwZXMvRXNzZW50aWFsP2FwaS12ZXJzaW9uPTIwMTctMDUtMTU=",
+      "RequestMethod": "PUT",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "81e7a7a1-48da-4a0c-ba17-a1739bc1bf92"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
+        "User-Agent": [
+          "FxVersion/4.7.2633.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.16299",
+          "Microsoft.Azure.Management.Addons.AzureAddonsResourceProviderClient/1.0.0.0"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"provisioningState\": \"Downgrading\"\r\n  },\r\n  \"id\": \"subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/canonical/supportPlanTypes/Essential\",\r\n  \"name\": \"Essential\",\r\n  \"type\": \"Microsoft.Addons/supportProvider\"\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "250"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "x-ms-request-id": [
+          "dm:b77bba0e-b148-4ee9-81f0-73a1cf1e29cf"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-ratelimit-remaining-subscription-writes": [
+          "1192"
+        ],
+        "x-ms-correlation-request-id": [
+          "2a25be4e-9b68-446f-aead-795633e20aa2"
+        ],
+        "x-ms-routing-request-id": [
+          "CENTRALUS:20180223T021542Z:2a25be4e-9b68-446f-aead-795633e20aa2"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Fri, 23 Feb 2018 02:15:42 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ]
+      },
+      "StatusCode": 201
+    },
+    {
+      "RequestUri": "/subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/Canonical/supportPlanTypes/Essential?api-version=2017-05-15",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZDE4ZDI1OGYtYmRiYS00ZGUxLThiNTEtZTc5ZDZjMTgxZDVlL3Byb3ZpZGVycy9NaWNyb3NvZnQuQWRkb25zL3N1cHBvcnRQcm92aWRlcnMvQ2Fub25pY2FsL3N1cHBvcnRQbGFuVHlwZXMvRXNzZW50aWFsP2FwaS12ZXJzaW9uPTIwMTctMDUtMTU=",
+      "RequestMethod": "GET",
+      "RequestBody": "",
+      "RequestHeaders": {
+        "User-Agent": [
+          "FxVersion/4.7.2633.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.16299",
+          "Microsoft.Azure.Management.Addons.AzureAddonsResourceProviderClient/1.0.0.0"
+        ]
+      },
+      "ResponseBody": "{\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  },\r\n  \"id\": \"subscriptions/d18d258f-bdba-4de1-8b51-e79d6c181d5e/providers/Microsoft.Addons/supportProviders/canonical/supportPlanTypes/Essential\",\r\n  \"name\": \"Essential\",\r\n  \"type\": \"Microsoft.Addons/supportProvider\"\r\n}",
+      "ResponseHeaders": {
+        "Content-Length": [
+          "248"
+        ],
+        "Content-Type": [
+          "application/json; charset=utf-8"
+        ],
+        "Expires": [
+          "-1"
+        ],
+        "Pragma": [
+          "no-cache"
+        ],
+        "Vary": [
+          "Accept-Encoding"
+        ],
+        "x-ms-ratelimit-remaining-subscription-reads": [
+          "14995"
+        ],
+        "x-ms-request-id": [
+          "dm:8d62786d-07f5-4b6c-a19d-1db2bf9f5fd7"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-ms-correlation-request-id": [
+          "2910d01b-2479-4403-a55f-4f47f8ea1d42"
+        ],
+        "x-ms-routing-request-id": [
+          "CENTRALUS:20180223T021612Z:2910d01b-2479-4403-a55f-4f47f8ea1d42"
+        ],
+        "Cache-Control": [
+          "no-cache"
+        ],
+        "Date": [
+          "Fri, 23 Feb 2018 02:16:12 GMT"
+        ],
+        "Server": [
+          "Microsoft-IIS/8.5"
+        ]
+      },
+      "StatusCode": 200
+    }
+  ],
+  "Names": {},
+  "Variables": {
+    "SubscriptionId": "d18d258f-bdba-4de1-8b51-e79d6c181d5e"
+  }
+}
